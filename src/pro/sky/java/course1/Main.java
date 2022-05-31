@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         int[] randomExpenditure = generateRandomArray();
 
-        //Задание№1
+        //Задание №1
         int monthExpenditure = 0;
         for (int j : randomExpenditure) {
             monthExpenditure = monthExpenditure + j;
